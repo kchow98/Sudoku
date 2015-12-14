@@ -2,7 +2,7 @@
 This is a my Sudoku Runner.
 
 @author Kevin Chow
-@version 12.3.15
+@version 12.13.15
 */
 public class RunnerSudoku
 {
