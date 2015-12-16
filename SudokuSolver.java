@@ -46,6 +46,8 @@ public class SudokuSolver
 			}
 			Integer[] mostConstrainedSpot = toCheck.getMostConstrained();
 			System.out.println(mostConstrainedSpot[0] + " " + mostConstrainedSpot[1]);
+			//This spot just shoes the most constrained spot (r,c) you can comment this
+			//out if you dont like this function. 
 			Integer[] possibleNumbersatMC = toCheck.getMostConstrainedPossibilities(mostConstrainedSpot);
 			int row = mostConstrainedSpot[0];
 			int col = mostConstrainedSpot[1];
