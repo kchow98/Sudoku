@@ -13,3 +13,5 @@ OR
 
 You can use the runner I have included. If you want to try different boards, simply change the csv file in this folder/add a new one 
 and change the name in the runner class.
+
+Note #2: The values printed out are the spots (r,c). This helps because it shows, at a quick glance, the runtime. In adition, it helps give a picture of what and how the solver is working.
